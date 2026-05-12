@@ -1,0 +1,25 @@
+{
+  "name": "turbopack-91927-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:webpack": "next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.2.4",
+    "react": "19.3.0-canary-3f0b9e61-20260317",
+    "react-dom": "19.3.0-canary-3f0b9e61-20260317",
+    "react-markdown": "10.1.0",
+    "react-virtuoso": "^4.18.7",
+    "rehype-katex": "7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
